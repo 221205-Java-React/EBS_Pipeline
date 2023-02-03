@@ -22,7 +22,7 @@ public class HiController {
 
     @GetMapping
     public ResponseEntity hi(){
-        return ResponseEntity.ok().body("hi");
+        return ResponseEntity.ok().body("hey");
     }
 
     //add this later and repackage/rebuild
